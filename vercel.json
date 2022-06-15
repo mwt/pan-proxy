@@ -2,19 +2,19 @@
     "rewrites": [
         {
           "source": "",
-          "destination": "https://classics.motd.org"
+          "destination": "https://live-digitalhoot.pantheonsite.io"
         },
         {
           "source": "/",
-          "destination": "https://classics.motd.org"
+          "destination": "https://live-digitalhoot.pantheonsite.io"
         },
         {
           "source": "/:match*",
-          "destination": "https://classics.motd.org/:match*"
+          "destination": "https://live-digitalhoot.pantheonsite.io/:match*"
         },
         {
           "source": "/:match*/",
-          "destination": "https://classics.motd.org/:match*/"
+          "destination": "https://live-digitalhoot.pantheonsite.io/:match*/"
         }
       ]
 }
