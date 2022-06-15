@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+        {
+          "source": "",
+          "destination": "https://classics.motd.org"
+        },
+        {
+          "source": "/",
+          "destination": "https://classics.motd.org"
+        },
+        {
+          "source": "/:match*",
+          "destination": "https://classics.motd.org/:match*"
+        },
+        {
+          "source": "/:match*/",
+          "destination": "https://classics.motd.org/:match*/"
+        }
+      ]
+}
+
