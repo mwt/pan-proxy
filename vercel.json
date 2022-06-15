@@ -9,6 +9,10 @@
           "destination": "https://live-digitalhoot.pantheonsite.io"
         },
         {
+          "source": "/echo",
+          "destination": "https://mwt.tilde.team/eget.php"
+        },
+        {
           "source": "/:match*",
           "destination": "https://live-digitalhoot.pantheonsite.io/:match*"
         },
