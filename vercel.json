@@ -25,6 +25,7 @@
               "key" : "X-Robots-Tag",
               "value" : "all"
             }
+          ]
         },
         {
           "source": "/",
@@ -33,6 +34,7 @@
               "key" : "X-Robots-Tag",
               "value" : "all"
             }
+          ]
         },
         {
           "source": "/:match*",
@@ -41,6 +43,7 @@
               "key" : "X-Robots-Tag",
               "value" : "all"
             }
+          ]
         },
         {
           "source": "/:match*/",
@@ -49,6 +52,7 @@
               "key" : "X-Robots-Tag",
               "value" : "all"
             }
+          ]
         }
     ]
 }
