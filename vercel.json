@@ -19,13 +19,36 @@
     ],
     "headers": [
         {
-          "source": "/(.*)",
+          "source": "",
           "headers" : [
             {
               "key" : "X-Robots-Tag",
               "value" : "all"
             }
-          ]
+        },
+        {
+          "source": "/",
+          "headers" : [
+            {
+              "key" : "X-Robots-Tag",
+              "value" : "all"
+            }
+        },
+        {
+          "source": "/:match*",
+          "headers" : [
+            {
+              "key" : "X-Robots-Tag",
+              "value" : "all"
+            }
+        },
+        {
+          "source": "/:match*/",
+          "headers" : [
+            {
+              "key" : "X-Robots-Tag",
+              "value" : "all"
+            }
         }
-  ]
+    ]
 }
