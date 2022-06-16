@@ -16,6 +16,16 @@
           "source": "/:match*/",
           "destination": "https://live-digitalhoot.pantheonsite.io/:match*/"
         }
-      ]
+    ],
+    "headers": [
+        {
+          "source": "/(.*)",
+          "headers" : [
+            {
+              "key" : "X-Robots-Tag",
+              "value" : "all"
+            }
+          ]
+        }
+  ]
 }
-
