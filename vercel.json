@@ -1,58 +1,20 @@
 {
-    "rewrites": [
-        {
-          "source": "",
-          "destination": "https://live-digitalhoot.pantheonsite.io"
-        },
-        {
-          "source": "/",
-          "destination": "https://live-digitalhoot.pantheonsite.io"
-        },
-        {
-          "source": "/:match*",
-          "destination": "https://live-digitalhoot.pantheonsite.io/:match*"
-        },
-        {
-          "source": "/:match*/",
-          "destination": "https://live-digitalhoot.pantheonsite.io/:match*/"
-        }
-    ],
-    "headers": [
-        {
-          "source": "",
-          "headers" : [
-            {
-              "key" : "X-Robots-Tag",
-              "value" : "index, follow"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers" : [
-            {
-              "key" : "X-Robots-Tag",
-              "value" : "index, follow"
-            }
-          ]
-        },
-        {
-          "source": "/:match*",
-          "headers" : [
-            {
-              "key" : "X-Robots-Tag",
-              "value" : "index, follow"
-            }
-          ]
-        },
-        {
-          "source": "/:match*/",
-          "headers" : [
-            {
-              "key" : "X-Robots-Tag",
-              "value" : "index, follow"
-            }
-          ]
-        }
-    ]
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/",
+      "headers" : { "x-robots-tag": "index, follow" },
+      "dest": "https://live-digitalhoot.pantheonsite.io"
+    },
+    {
+      "src": "/:match*",
+      "headers" : { "x-robots-tag": "index, follow" },
+      "dest": "https://live-digitalhoot.pantheonsite.io/:match*"
+    },
+    {
+      "src": "/:match*/",
+      "headers" : { "x-robots-tag": "index, follow" },
+      "dest": "https://live-digitalhoot.pantheonsite.io/:match*/"
+    }
+  ]
 }
