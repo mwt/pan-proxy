@@ -2,10 +2,6 @@
   "routes": [
     { "handle": "filesystem" },
     {
-      "src": "",
-      "dest": "https://live-digitalhoot.pantheonsite.io"
-    },
-    {
       "src": "/",
       "dest": "https://live-digitalhoot.pantheonsite.io"
     },
