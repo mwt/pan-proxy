@@ -15,7 +15,7 @@
     },
     {
       "src": "/:match*/",
-      "destination": "https://live-digitalhoot.pantheonsite.io/:match*/"
+      "dest": "https://live-digitalhoot.pantheonsite.io/:match*/"
     }
   ]
 }
