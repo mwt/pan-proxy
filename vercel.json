@@ -3,14 +3,23 @@
     { "handle": "filesystem" },
     {
       "src": "/",
+      "headers" : [
+        { "key" : "X-Robots-Tag", "value" : "index, follow" }
+      ],
       "dest": "https://live-digitalhoot.pantheonsite.io"
     },
     {
       "src": "/:match*",
+      "headers" : [
+        { "key" : "X-Robots-Tag", "value" : "index, follow" }
+      ],
       "dest": "https://live-digitalhoot.pantheonsite.io/:match*"
     },
     {
       "src": "/:match*/",
+      "headers" : [
+        { "key" : "X-Robots-Tag", "value" : "index, follow" }
+      ],
       "dest": "https://live-digitalhoot.pantheonsite.io/:match*/"
     }
   ]
