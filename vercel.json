@@ -3,17 +3,17 @@
     { "handle": "filesystem" },
     {
       "src": "/",
-      "headers" : { "X-Robots-Tag": "index, follow" },
+      "headers" : { "x-robots-tag": "index, follow" },
       "dest": "https://live-digitalhoot.pantheonsite.io"
     },
     {
       "src": "/:match*",
-      "headers" : { "X-Robots-Tag": "index, follow" },
+      "headers" : { "x-robots-tag": "index, follow" },
       "dest": "https://live-digitalhoot.pantheonsite.io/:match*"
     },
     {
       "src": "/:match*/",
-      "headers" : { "X-Robots-Tag": "index, follow" },
+      "headers" : { "x-robots-tag": "index, follow" },
       "dest": "https://live-digitalhoot.pantheonsite.io/:match*/"
     }
   ]
